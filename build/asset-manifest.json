@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb392f00.css",
+    "main.js": "/static/js/main.baae484a.js",
+    "static/js/787.dc7fdc1f.chunk.js": "/static/js/787.dc7fdc1f.chunk.js",
+    "static/media/luanna.png": "/static/media/luanna.199fae97a1cf195f39c7.png",
+    "static/media/Instagram_icon.png": "/static/media/Instagram_icon.e291349581f33a4f4b3e.png",
+    "static/media/whatsapp-icone.png": "/static/media/whatsapp-icone.db3fb8713bc1314bb8e6.png",
+    "static/media/livro-removebg.png": "/static/media/livro-removebg.6536702e1a85a8ea262d.png",
+    "static/media/psicoterapia-fenomenologico-existencial.jpg": "/static/media/psicoterapia-fenomenologico-existencial.62e7222897c67b7a36c4.jpg",
+    "static/media/psicoterapia-on-line-1.jpg": "/static/media/psicoterapia-on-line-1.817353f6fa2e107863bc.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.eb392f00.css.map": "/static/css/main.eb392f00.css.map",
+    "main.baae484a.js.map": "/static/js/main.baae484a.js.map",
+    "787.dc7fdc1f.chunk.js.map": "/static/js/787.dc7fdc1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb392f00.css",
+    "static/js/main.baae484a.js"
+  ]
+}
