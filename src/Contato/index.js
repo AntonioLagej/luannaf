@@ -1,17 +1,17 @@
 import React from "react"
 import IconWhatsapp from "../images/whatsapp-icone.png";
 import IconInstagram from "../images/Instagram_icon.png";
-import { Wrapper,Titulo , Paragrafo, WhatsappIcon, Linkname,SocialMedia}  from "./styles"
+import { Wrapper,Titulo , Paragrafo, WhatsappIcon, Linkname,SocialMedia,Contatosimg}  from "./styles"
 import { AnimationOnScroll } from "react-animation-on-scroll";
-
+import Contimg from '../images/contatos.png'
 const Contato = () => (
 
     
   <Wrapper id='contato' >
 
-   <AnimationOnScroll animateIn="animate__bounce"><Titulo >Contato</Titulo></AnimationOnScroll> 
+   <AnimationOnScroll animateIn="animate__bounce"><Contatosimg  src={Contimg}/></AnimationOnScroll> 
   
-    <Paragrafo >Entre em contato comigo atraves dos botões abaixo!<br/>
+    <Paragrafo >Entre em contato comigo através dos botões abaixo!<br/>
         Vamos marcar sua primeira sessão!
     </Paragrafo>
     <SocialMedia>

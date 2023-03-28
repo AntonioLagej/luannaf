@@ -3,28 +3,41 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
 text-align: center;
-font-family: 'Work Sans';
-
-background: snow;
+font-family:'Poppins';
+overflow-x: hidden; 
+background-color:  #b3cec9;
 width: 100vw;
-left: 50vw;
-padding-top: 15vh;
-height: 90vh;
-@media only screen and (min-width:768px) {
-    width: 30vw;
-    padding-top: 15vh;
-padding-right: 12vw;
-float: right;
+left: 100vw;
+padding-top: 0vh;
+height: fit-content;
+padding-right: 5vw;
+padding-bottom: 10vh;
+
+@media only screen and (max-width:768px) {
+    width: 100%;
+
+
+top:100vh;
+float: none;
 
    
 }
+`;
+export const Contatosimg = styled.img`
+padding-top: 20vh;
+height: 30vh;
+@media only screen and (max-width:768px) {
+    height: 20vh;
+    padding-top: 10vh;
+   
+}
+
 `;
 
 export const Titulo =styled.div`
 margin-top: 0;
 font-weight: bold;
 font-size: 16pt;
-
 `;
 
 export const Paragrafo = styled.div`

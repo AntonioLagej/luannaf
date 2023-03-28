@@ -1,54 +1,69 @@
 import styled from "styled-components";
+import { Player } from "video-react";
+import flores from '../images/moroccan-flower.png'
 
-export const Titulo=styled.div`
-padding-top: 20vh;
-
-font-weight:bold;
-font-size: 21pt;
-
-`;
 export const PaisagemImg=styled.img`
+max-width: 100%;
+padding-bottom: 15vh;
 
-width: 100vw;
 @media only screen and (min-width: 768px) {
-    
-float: left;
-width: 50vw;
-&.show{
-    transform: translateX(-150%);
-   transition-duration: 1000ms;
-}
+position: absolute;
+left: 0;
+top: 170vh;
+max-width: 100%;
 
-&.hidden{
-    transform: translateX(0);
-    transition-duration: 1000ms;
-  }
+
 }
 `;
 export const Wrapper=styled.div`
+  overflow-x: hidden;
+text-align: justify;
+height: fit-content;
+margin-top: 15vh;
 
-
-
-text-align: center;
-margin-top: -10vh;
-font-family:'Work Sans';
+font-family:'Poppins';
 display: inline-block;
+z-index: 1;
+@media only screen and (max-width: 768px) {
+  margin-top: 10vh;
+  height: fit-content;
+
+  margin-left: 3rem;
+  max-width: 100%;
+  width: 75%;
+
+
+}
 
 
 `;
-export const Introducao=styled.div`
-padding-top: 10vh;
-font-size: 16pt;
-transition-duration: 2000ms;
+export const VideoWrapper =styled.div`
+@media screen and(max-width:768px){
+  float: none;
+ 
 
-padding-bottom: 28vh;
-.hidden{
-    transform: translateX(-150%);
-   transition-duration: 2000ms;
 }
+`;
+export const VideoLuanna=styled(Player)`
+margin-left: 7vw;
+float: left;
 
-  .show{
-    transform: translateX(0);
-    transition-duration: 2000ms;
-  }
+
+
+`
+export const Introducao=styled.div`
+width: 40%;
+height: fit-content;
+margin-top: 10%;
+margin-right: 20%;
+
+font-size: 1.3rem;
+float: right;
+@media only screen and (max-width: 768px) {
+  max-width: 100%;
+  width: 100%;
+  margin-right: 0%;
+
+margin-left: 0%;
+}
 `;

@@ -7,7 +7,7 @@ import "animate.css/animate.min.css";
 export default class Testimonials extends Component {
   render() {
     return (
-        <AnimationOnScroll animateIn="animate__pulse">
+       
     <Wrapper id="depoimentos">
            <Titulo>Depoimentos</Titulo>
         <Carousel
@@ -55,7 +55,6 @@ export default class Testimonials extends Component {
      
       </Carousel>
       </Wrapper>
-      </AnimationOnScroll>
     );
   }
 

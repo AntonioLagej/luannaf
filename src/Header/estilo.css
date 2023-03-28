@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+	.bm-burger-button{
+        position: absolute;
+       
+        display: inline;
+        width: 36px;
+        height: 30px;
+        top: 10px;
+      right: 40px;
+	}
+
+}
+@media screen and (min-width: 768px) {
+	.bm-burger-button{
+        position: absolute;
+       
+        display: inline;
+        width: 0px;
+        height: 0px;
+        top: 10px;
+      right: 0;
+	}
+
+}
+    
+    
+      
+  
+
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .bm-cross {
+    background: black;
+  }
+
+  
+  /* General sidebar styles */
+  .bm-menu {
+
+ 
+    background-color:aliceblue;
+    padding: 2.5em 1.5em 0;
+   padding-right: 0;
+   overflow: hidden;
+   outline: 1px solid #000;
+    font-size: 1.15em;
+  }
+
+  .bm-menu-wrap {
+    position: fixed;
+    background: rgba(0, 0, 0, .8);
+  
+  }
+  
+
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+ color:black;
+    padding: 0.9em;
+  
+    overflow: hidden;
+   
+  }
+  .bm-item{
+    margin-top: 50%;
+
+  
+  }
+  .bm-overlay {
+   
+   
+  }
+  
+ 
+  
+  

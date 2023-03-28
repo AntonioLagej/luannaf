@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const Wrapper = styled.div`
-top: 0;
 
 width: 100%;
 position: fixed;
@@ -11,14 +10,16 @@ height: 50px;
 
 background-color: aliceblue;
 z-index: 10000;
+@media only screen and (max-width:768px){
+   top: 0;
+   width: 100%;
 
 
+}
 `;
-
-export const Content =styled.div`
-
-
-
+export const MenuItem= styled.li`
+  
+    cursor: pointer;
 `;
 
 export const LogoImg = styled.img`
@@ -32,6 +33,13 @@ z-index: 99999999;
 @media only screen and (max-width:768px){
     height: 30px;
 }
+`;
+
+
+export const IconMenu=styled.img`
+height: 50px;
+
+
 `;
 
 export const NavButton=styled.div`

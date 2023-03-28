@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 
 export const Wrapper = styled.div`
-font-family: cursive;
-color: lightgray;
-text-shadow: 1px black;
-padding-top:25vh;
-background: #1fbdbe;
-width: 100vw;
+  overflow-x: hidden;
+font-family:'Poppins';
+color: white;
+
+margin-top:26vh;
+margin-left: -50vw;
+width: 98vw;
 text-align: center;
 @media only screen and (min-width: 768px) {
     width: 50vw;
@@ -16,16 +17,18 @@ text-align: center;
 `;
 
 export const Titulo =styled.div`
-color: gainsboro;
+color: white;
 font-weight:bolder;
 font-size: 16pt;
 
 `;
 export const AtendimentoImg=styled.img`
-width: 98vw;
+width: 90vw;
+padding-top: 50vh;
 @media only screen and (min-width: 768px) {
-    width: 49vw;
-    margin-top: -20vh;
+    width: 51vw;
+    height: 92vh;
+    margin-top: -26vh;
     
 }
 

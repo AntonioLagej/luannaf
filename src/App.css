@@ -1,5 +1,10 @@
+
 .App {
   text-align: center;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  background:'./images/moroccan-flower.png';
+  background-color:gold;
+background-blend-mode: multiply;
 }
 
 .App-logo {

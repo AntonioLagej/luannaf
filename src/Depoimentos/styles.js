@@ -7,7 +7,6 @@ z-index: -100;
 export const Nome=styled.h4`
 font-size: 16pt;
 font-weight: normal;
-text-decoration: underline;
 z-index: -100;
 @media only screen and(min-width: 768px){
 
@@ -26,7 +25,7 @@ font-size: 21pt;
 
 `
 export const Depoimento=styled.p`
-z-index: -100;
+
 font-weight: normal;
 
 font-size: 16pt;
@@ -37,12 +36,12 @@ font-size: 16pt;
 }
 `
 export const Wrapper=styled.div`
-
-font-family:"Work Sans";
+  overflow-x: hidden; 
+font-family:"Poppins";
 display: block;
 z-index: -100;
 width: 70vw;
-height: 70vh;
+height: fit-content;
 padding-bottom: 30vh;
 padding-top: 20vh;
 margin-left: 15vw;
@@ -50,7 +49,7 @@ margin-left: 15vw;
     padding-top: 10vh;
    width: 50vh;
    margin-top: 0;
-   font-size: 16pt;
+   font-size: 1rem;
    
 
 }
