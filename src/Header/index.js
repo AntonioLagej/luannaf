@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 
 import { Link ,animateScroll as scroll,scroller} from "react-scroll";
-import LogoPsi from '../images/psicologia.png'
+import LogoPsi from '../images/Logo.png'
 import HamburgerImg from '../images/icons8-menu-arredondado-50.png'
-import{LogoImg,Wrapper,NavButton, Menuzin, Hamburger, MenuItem,IconMenu} from './styles'
+import{LogoImg,Wrapper,NavButton, Menuzin, Hamburger, MenuItem,IconMenu,LogoItem} from './styles'
 import { useInView,InView } from 'react-intersection-observer';
 import { slide as Menu } from "react-burger-menu";
 import LogoContato from '../images/contato.png'
+import LogoSobre from '../images/Sobre_mim.png'
+
+import LogoDepoimento from '../images/depoimentos.png'
+import LogoAbordagem from '../images/Abordagem.png'
+
 import './estilo.css';
 
 const Header = () => {
@@ -33,25 +38,20 @@ const closeSideBar = () => {
         <NavButton  > < Link spy={true} to='sobre' activeClass='active' smooth={ 'easeInOutQuint'} >Sobre</Link></NavButton> 
         <NavButton ><Link spy={true}  activeClass='active'  to='contato'smooth={true} offset={-30}>Contatos</Link></NavButton> 
         <NavButton ><Link spy={true}  activeClass='active'  to='abordagem'smooth={true} offset={-70}>Abordagem</Link></NavButton>   
-         <NavButton ><Link  spy={true}  activeClass='active' to='depoimentos'smooth={true}offset={20}>Depoimentos</Link></NavButton>  
+         {/* <NavButton ><Link  spy={true}  activeClass='active' to='depoimentos'smooth={true}offset={20}>Depoimentos</Link></NavButton>   */}
          
          <Menu style={{display:"flex"}}noOverlay  right  isOpen={isOpen}
     onOpen={handleIsOpen}
     onClose={handleIsOpen}customBurgerIcon={ <img  src={HamburgerImg}  /> } >
-    <ul style={{float:"left"}} >
   
-      <li ><IconMenu src={LogoContato}/></li>
-      <li ><IconMenu src={LogoContato}/></li>
-      <li ><IconMenu src={LogoContato}/></li>
-      </ul>
      
 
-      <ul style={{float:"right"}}>
-      <MenuItem  >< Link    onClick={closeSideBar} spy={true}  to='sobre' activeClass='active' smooth={ 'easeInOutQuint'} >Sobre</Link></MenuItem> 
-        <MenuItem  >< Link spy={true} onClick={closeSideBar}  activeClass='active'  to='contato'smooth={true} offset={-30}> < span>Contatos</span></Link></MenuItem> 
-        <MenuItem  ><Link spy={true} onClick={closeSideBar} activeClass='active'  to='abordagem'smooth={true} offset={20}>Abordagem</Link></MenuItem>   
-         <MenuItem ><Link  spy={true} onClick={closeSideBar} activeClass='active' to='depoimentos'smooth={true}offset={20}>Depoimentos</Link></MenuItem>  
-         </ul>
+    
+      <MenuItem  >< Link    onClick={closeSideBar} spy={true}  to='sobre' activeClass='active' smooth={ 'easeInOutQuint'} > <IconMenu src={LogoSobre}/>Sobre</Link></MenuItem> 
+        <MenuItem  >< Link spy={true} onClick={closeSideBar}  activeClass='active'  to='contato'smooth={true} offset={-30}>  <IconMenu src={LogoContato}/>< span>Contatos</span></Link></MenuItem> 
+        <MenuItem  ><Link spy={true} onClick={closeSideBar} activeClass='active'  to='abordagem'smooth={true} offset={20}> <IconMenu src={LogoAbordagem}/>Abordagem</Link></MenuItem>   
+         {/* <MenuItem ><Link  spy={true} onClick={closeSideBar} activeClass='active' to='depoimentos'smooth={true}offset={20}> <IconMenu src={LogoDepoimento}/>Depoimentos</Link></MenuItem>   */}
+        
       
        </Menu>
         

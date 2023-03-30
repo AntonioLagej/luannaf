@@ -112,7 +112,7 @@ text-align: center;
 `;
 export const Texto2=styled.div`
 position: relative;
-padding-top:3vh;
+padding-top:2vh;
 text-align: center;
 font-size: 1.2rem;
 @media only screen and (max-width:768px) {

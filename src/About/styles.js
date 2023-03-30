@@ -6,7 +6,7 @@ export const Wrapper= styled.div`
 
 width: 49%;
 left: -2%;
-height: 100vh;
+height: fit-content;
 
 font-family:'Poppins';
 float: left;
@@ -22,13 +22,14 @@ export const Titulo=styled.h3`
 @media only screen and (max-width:768px) {
     padding-top: 1vh;
    
+   
 } 
 font-size: 2rem;
 text-align: center;
 
 `;
 export const Texto=styled.p`
-margin-top: -5vh;
+margin-top: -2vh;
 font-size: 1rem;
 text-align: center;
 
@@ -41,17 +42,11 @@ margin-left:17vw ;
 border-radius: 150px;
 height:40vh;
 
-
-
-
-
 @media only screen and (max-width:768px) {
-  margin-top: 5vh;
-    height: auto;
+  margin-top: 10vh;
   height: 30vh;
   margin-left: 25vw;
 
-  
 }
 
 

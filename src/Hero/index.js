@@ -31,7 +31,7 @@ const Hero = () => {
          <Texto>
          Abordagem Humanista
          </Texto>
-       <Texto2>Essa abordagem não busca interpretar nem objetificar, mas descrever os fatos do modo como se apresentam</Texto2>
+       <Texto2>Essa abordagem não busca interpretar nem objetificar, mas descrever os fatos do modo como se apresentam.</Texto2>
          </Psicologia2>
          
  </Wrap>

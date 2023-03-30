@@ -35,7 +35,7 @@
   }
   
   .bm-cross {
-    background: black;
+    background: white;
   }
 
   
@@ -43,11 +43,13 @@
   .bm-menu {
 
  
-    background-color:aliceblue;
+    background-color: rgba(0, 0, 0, .4);
     padding: 2.5em 1.5em 0;
+    display: flex;
+  align-items: center;
+  justify-content: center;
    padding-right: 0;
    overflow: hidden;
-   outline: 1px solid #000;
     font-size: 1.15em;
   }
 
@@ -61,22 +63,18 @@
   
   /* Wrapper for item list */
   .bm-item-list {
- color:black;
-    padding: 0.9em;
+ color:white;
+  
   
     overflow: hidden;
    
   }
   .bm-item{
-    margin-top: 50%;
+    margin-top: 10%;
 
   
   }
-  .bm-overlay {
    
-   
-  }
-  
  
   
   

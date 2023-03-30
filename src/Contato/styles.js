@@ -3,9 +3,10 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
 text-align: center;
+color: white;
 font-family:'Poppins';
 overflow-x: hidden; 
-background-color:  #b3cec9;
+background-color:  #4f632c;
 width: 100vw;
 left: 100vw;
 padding-top: 0vh;
@@ -59,7 +60,6 @@ export const SocialMedia=styled.a`
 display:inline-block;
 margin-right: 2vw;
 margin-left: 2vw;
-
-color: black;
+color: white;
 text-decoration: none;
 `; 

@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('./images/moroccan-flower.png');
-   background-color:aliceblue;
+  /* background: url('./images/moroccan-flower.png'); */
+   background-color:#9fa957;
    background-blend-mode: multiply;
    
 }

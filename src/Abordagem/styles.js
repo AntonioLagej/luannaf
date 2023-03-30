@@ -28,9 +28,9 @@ z-index: 1;
   margin-top: 10vh;
   height: fit-content;
 
-  margin-left: 3rem;
+  margin-left: 1rem;
   max-width: 100%;
-  width: 75%;
+  width: 90vw;
 
 
 }
@@ -54,11 +54,8 @@ float: left;
 export const Introducao=styled.div`
 width: 40%;
 height: fit-content;
-margin-top: 10%;
-margin-right: 20%;
-
+margin-left: 30%;
 font-size: 1.3rem;
-float: right;
 @media only screen and (max-width: 768px) {
   max-width: 100%;
   width: 100%;

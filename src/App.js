@@ -7,6 +7,7 @@ import Contato from './Contato';
 import Footer from './Footer';
 import Depoimentos from './Depoimentos';
 import Abordagem from './Abordagem';
+import RealHero from './RealHero'
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 import Luanna from './images/luanna.png'
   function App() {
@@ -19,7 +20,7 @@ import Luanna from './images/luanna.png'
    
    <FloatingWhatsApp  phoneNumber='5531985768174'  statusMessage='Geralmente responde em 1 hora'accountName='Luanna Ferreira' avatar={Luanna} chatMessage='Olá! Como posso ajudar?'/>
       <Header/>
-     
+     <RealHero/>
     
         <About/>
         <Hero/>

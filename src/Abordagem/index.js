@@ -5,6 +5,7 @@ import { InView,useInView } from "react-intersection-observer"
 import { useState,  useEffect} from "react";
 import '../video-react.css'; 
 import { Player } from 'video-react';
+import { Titulo } from "../About/styles";
 const Abordagem = () => {
   
       
@@ -15,7 +16,7 @@ const Abordagem = () => {
 
 
 <Wrapper id='abordagem'>
- <VideoWrapper>
+ {/*<VideoWrapper>
 <VideoLuanna   autoPlay={true}
     poster="/assets/poster.png"
     src={'https://assets.mixkit.co/videos/preview/mixkit-waves-in-the-water-1164-large.mp4'}
@@ -24,12 +25,13 @@ fluid={false}
    
    />
 </VideoWrapper>
+    */}
+    <Titulo> Abordagem Fenomenológica Existencial</Titulo>
     <Introducao >
- 
-    A psicoterapia fenomenológico existencial é uma vertente de psicoterapia que entende a existência humana de maneira singular, 
-    sempre em processo e transformação. Compreende que cada pessoa experimenta a vida de maneira particular, partindo dos afetos, 
-    livre para fazer escolhas e responsável pelas escolhas que fizer.
-
+    A abordagem fenomenológica-existencial na psicoterapia destaca a liberdade, escolha e responsabilidade pessoal,
+     focando a experiência pessoal de cada indivíduo. Descubra como a colaboração terapeuta-paciente pode ajudá-lo a explorar sua experiência
+    subjetiva e encontrar significado e propósito em sua vida.<br/> 
+    Entre em contato comigo e conheça um ambiente seguro e acolhedor para se expressar e acessar sua própria sabedoria interior.
     </Introducao>
   
     </Wrapper>

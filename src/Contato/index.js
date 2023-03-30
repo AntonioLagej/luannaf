@@ -9,7 +9,7 @@ const Contato = () => (
     
   <Wrapper id='contato' >
 
-   <AnimationOnScroll animateIn="animate__bounce"><Contatosimg  src={Contimg}/></AnimationOnScroll> 
+   <AnimationOnScroll animateIn="animate__bounce"><h1>Contatos</h1></AnimationOnScroll> 
   
     <Paragrafo >Entre em contato comigo através dos botões abaixo!<br/>
         Vamos marcar sua primeira sessão!

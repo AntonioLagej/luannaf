@@ -8,7 +8,8 @@ position: fixed;
 display: flexbox;
 height: 50px;
 
-background-color: aliceblue;
+background-color: #4f632c;
+color: #9fa957;
 z-index: 10000;
 @media only screen and (max-width:768px){
    top: 0;
@@ -18,8 +19,20 @@ z-index: 10000;
 }
 `;
 export const MenuItem= styled.li`
-  
+padding-top: 0%;
+  list-style-type: none;
     cursor: pointer;
+    text-align: left;
+    padding-left: 0;
+
+`;
+export const LogoItem= styled.li`
+padding-top:8%;
+  list-style-type: none;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 0;
+
 `;
 
 export const LogoImg = styled.img`
@@ -27,18 +40,21 @@ export const LogoImg = styled.img`
         cursor: pointer;
     }
     margin-top: 1vh;
+    margin-left: 1vw;
 float: left;
 height: 30px;
 z-index: 99999999;
 @media only screen and (max-width:768px){
-    height: 30px;
+    z-index: 99999999;
+    height: 4vh;
 }
 `;
 
 
 export const IconMenu=styled.img`
-height: 50px;
-
+height:80px;
+vertical-align: middle;
+margin-bottom: 0px;
 
 `;
 

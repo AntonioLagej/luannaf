@@ -9,11 +9,11 @@ export default class Testimonials extends Component {
     return (
        
     <Wrapper id="depoimentos">
-           <Titulo>Depoimentos</Titulo>
+           {/* <Titulo>Depoimentos</Titulo>
         <Carousel
         showArrows={true}
         infiniteLoop={true}
-        showThumbs={true}
+        showThumbs={false}
         showStatus={false}
         autoPlay={true}
         interval={6100}
@@ -21,21 +21,17 @@ export default class Testimonials extends Component {
       >
           <Carrossel>
           <Depoimento>
-          A Luanna é, de longe, a melhor psicóloga com quem já fiz terapia. Profissional competente e
-           atencioso, que faz você conseguir chegar a conclusões e respostas que tinha dificuldade em enxergar. 
-           Ao longo das consultas, tenho obtido bons resultados na cessão da melancolia e na melhora da disposição diária. 
-           Recomendo seu trabalho. 
+          
             </Depoimento>
-            <Nome>Shirley Fultz</Nome>
+            <Nome></Nome>
          
           </Carrossel>
 
           <Carrossel>
           <Depoimento>
-          Primeira sessão e me senti bem acolhida. Luanna é muito direta nas questões que importam e traz muita segurança no tom de sua voz.
-           Seu estilo de abordagem e a franqueza em me direcionar, realmente impactou no dia. Recomendo.
+        
             </Depoimento>
-            <Nome>Daniela Keystone</Nome>          
+            <Nome></Nome>          
           </Carrossel>
     
 
@@ -43,17 +39,13 @@ export default class Testimonials extends Component {
      
           <Carrossel>
           <Depoimento>
-          Luanna exerce um trabalho de excelência.
-          Sabe ouvir com atenção e faz suas intervenções impecáveis.
-          Em pouco tempo de tratamento me senti muito melhor comigo mesmo e em meus relacionamentos. 
-          Pude contar com a ajuda dela para enfrentar o luto da perda de um familiar especial.
-          Super recomendo. 
+        
             </Depoimento>
-            <Nome>Theo Sorel</Nome>
+            <Nome></Nome>
                        
           </Carrossel>
      
-      </Carousel>
+      </Carousel> */}
       </Wrapper>
     );
   }
