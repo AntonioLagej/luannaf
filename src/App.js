@@ -9,7 +9,7 @@ import Depoimentos from './Depoimentos';
 import Abordagem from './Abordagem';
 import RealHero from './RealHero'
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
-import Luanna from './images/luanna.png'
+import Luanna from './images/luanna.webp'
   function App() {
  
     

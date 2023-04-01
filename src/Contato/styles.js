@@ -1,12 +1,12 @@
 import styled from "styled-components";
-
+var ReactGA = require('react-ga');
 
 export const Wrapper = styled.div`
 text-align: center;
 color: white;
 font-family:'Poppins';
 overflow-x: hidden; 
-background-color:  #4f632c;
+background-color:  #768f3d;
 width: 100vw;
 left: 100vw;
 padding-top: 0vh;
@@ -56,10 +56,11 @@ display: block;
 
 
 `;
-export const SocialMedia=styled.a`
+export const SocialMedia=styled(ReactGA.OutboundLink)`
 display:inline-block;
 margin-right: 2vw;
 margin-left: 2vw;
 color: white;
+
 text-decoration: none;
 `; 

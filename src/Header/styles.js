@@ -8,8 +8,8 @@ position: fixed;
 display: flexbox;
 height: 50px;
 
-background-color: #4f632c;
-color: #9fa957;
+background-color: #768f3d;
+color: white;
 z-index: 10000;
 @media only screen and (max-width:768px){
    top: 0;

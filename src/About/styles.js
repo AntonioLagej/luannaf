@@ -5,8 +5,9 @@ import flores from '../images/moroccan-flower.png'
 export const Wrapper= styled.div`
 
 width: 49%;
-left: -2%;
+left: 2%;
 height: fit-content;
+
 
 font-family:'Poppins';
 float: left;
@@ -32,6 +33,8 @@ export const Texto=styled.p`
 margin-top: -2vh;
 font-size: 1rem;
 text-align: center;
+padding-left: 1vw;
+padding-right: 1vw;
 
 `;
 export const FotoLuannaimg=styled.img`

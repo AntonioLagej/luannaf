@@ -1,7 +1,7 @@
 import React from "react"
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { InView } from "react-intersection-observer";
-import fotoLuanna from "../images/luanna.png";
+import fotoLuanna from "../images/luanna.webp";
 import { Titulo,FotoLuannaimg,Wrapper,Texto} from "./styles";
 const About = () => (
   
