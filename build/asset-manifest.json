@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e2f27af.css",
-    "main.js": "/static/js/main.ac41d389.js",
+    "main.css": "/static/css/main.76865437.css",
+    "main.js": "/static/js/main.7e75f6f4.js",
     "static/media/ocean-waves.gif": "/static/media/ocean-waves.4f3f78e07018383dc619.gif",
-    "static/media/luanna.png": "/static/media/luanna.199fae97a1cf195f39c7.png",
-    "static/media/Instagram_icon.png": "/static/media/Instagram_icon.e291349581f33a4f4b3e.png",
-    "static/media/autumn-woods.jpg": "/static/media/autumn-woods.01a1236acf513939ac2d.jpg",
+    "static/media/autumn-woods.webp": "/static/media/autumn-woods.0c103cea57fc48c01246.webp",
+    "static/media/luanna.webp": "/static/media/luanna.a35a4459a346050c55bf.webp",
     "static/media/whatsapp-icone.png": "/static/media/whatsapp-icone.db3fb8713bc1314bb8e6.png",
     "static/media/livro-removebg.png": "/static/media/livro-removebg.6536702e1a85a8ea262d.png",
-    "static/media/Logo.png": "/static/media/Logo.5582c63b1e9f003f2d0d.png",
     "static/media/Abordagem.png": "/static/media/Abordagem.7b229ae56962e7887b77.png",
     "static/media/depoimentos.png": "/static/media/depoimentos.5be0afafa44562d63300.png",
     "static/media/moroccan-flower.png": "/static/media/moroccan-flower.481cdea2bf2e2765556f.png",
     "static/media/contatos.png": "/static/media/contatos.27503c7dcf2c13541d89.png",
     "static/media/Sobre_mim.png": "/static/media/Sobre_mim.fbbc5f3c39c6d16b310d.png",
     "static/media/support.png": "/static/media/support.ecc494d21d9b57160f10.png",
+    "static/media/Logo.png": "/static/media/Logo.eee15f8373fe1062ec8e.png",
     "static/media/contato.png": "/static/media/contato.e52fa24a07e62cf2a1a2.png",
+    "static/media/politicadeprivacidade.txt": "/static/media/politicadeprivacidade.306c82cda8d79e7d1950.txt",
+    "static/media/whatsapp-icone.webp": "/static/media/whatsapp-icone.d9412abfebb78f580b1f.webp",
+    "static/media/Instagram_icon.webp": "/static/media/Instagram_icon.62fb08ed379609b5f060.webp",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.7e2f27af.css.map": "/static/css/main.7e2f27af.css.map",
-    "main.ac41d389.js.map": "/static/js/main.ac41d389.js.map"
+    "main.76865437.css.map": "/static/css/main.76865437.css.map",
+    "main.7e75f6f4.js.map": "/static/js/main.7e75f6f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e2f27af.css",
-    "static/js/main.ac41d389.js"
+    "static/css/main.76865437.css",
+    "static/js/main.7e75f6f4.js"
   ]
 }
